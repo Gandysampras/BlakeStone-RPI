@@ -21,7 +21,7 @@ function depends_bstone() {
 }
 
 function sources_bstone() {
-    gitPullOrClone "$md_build" https://github.com/bibendovsky/bstone.git
+    gitPullOrClone "$md_build" https://github.com/bibendovsky/bstone.git master c7d8adfeab95686d6064d105a2f12512fd83b962
 }
 
 function build_bstone() {
